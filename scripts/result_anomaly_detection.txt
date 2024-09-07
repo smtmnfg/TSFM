@@ -1,0 +1,9 @@
+anomaly_detection_MSL_GPT4TS_MSL_ftM_sl100_ll48_pl0_dm768_nh8_el2_dl1_df8_fc1_ebtimeF_dtTrue_test_0  
+Accuracy : 0.9609, Precision : 0.8171, Recall : 0.8114, F-score : 0.8142 
+
+anomaly_detection_FactoryDataset_GPT4TS_FactoryDataset_ftM_sl100_ll48_pl0_dm768_nh8_el2_dl1_df8_fc1_ebtimeF_dtTrue_test_0  
+Accuracy : 0.9797, Precision : 0.0900, Recall : 0.8439, F-score : 0.1627 
+
+anomaly_detection_PulpDataset_GPT4TS_PulpDataset_ftM_sl100_ll48_pl0_dm768_nh8_el2_dl1_df8_fc1_ebtimeF_dtTrue_test_0  
+Accuracy : 0.9744, Precision : 0.0143, Recall : 0.0433, F-score : 0.0215 
+

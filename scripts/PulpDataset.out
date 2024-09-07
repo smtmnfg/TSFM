@@ -1,0 +1,88 @@
+node493
+Sun Aug 18 17:25:32 EDT 2024
+Args in experiment:
+Namespace(task_name='anomaly_detection', is_training=1, model_id='PulpDataset', model='GPT4TS', data='PulpDataset', root_path='/work/jayakodc/mcnair_data/smart-manufacturing/smart-manufacturing/custom_compact_models/NeurIPS2023-One-Fits-All/Anomaly_Detection/datasets/PulpDataset', data_path='ETTh1.csv', features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=100, label_len=48, pred_len=0, seasonal_patterns='Monthly', mask_rate=0.25, anomaly_ratio=2.0, top_k=5, num_kernels=6, enc_in=59, dec_in=7, c_out=59, d_model=768, n_heads=8, e_layers=2, d_layers=1, d_ff=8, moving_avg=25, factor=1, distil=True, dropout=0.1, embed='timeF', activation='gelu', output_attention=False, num_workers=10, itr=1, train_epochs=10, batch_size=128, patience=3, learning_rate=0.0001, des='test', loss='MSE', lradj='type1', use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0,1,2,3', p_hidden_dims=[128, 128], p_hidden_layers=2, patch_size=1, stride=1, gpt_layers=6, ln=0, mlp=0, weight=0, percent=5)
+Use GPU: cuda:0
+>>>>>>>start training : anomaly_detection_PulpDataset_GPT4TS_PulpDataset_ftM_sl100_ll48_pl0_dm768_nh8_el2_dl1_df8_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+test: (3680, 59)
+train: (14718, 59)
+train 14619
+test: (3680, 59)
+train: (14718, 59)
+val 3581
+test: (3680, 59)
+train: (14718, 59)
+test 3581
+	iters: 100, epoch: 1 | loss: 0.9916753
+	speed: 0.1750s/iter; left time: 183.8856s
+Epoch: 1 cost time: 19.964085340499878
+Epoch: 1, Steps: 115 | Train Loss: 1.0210605 Vali Loss: 0.9479983 Test Loss: 0.9479583
+Validation loss decreased (inf --> 0.947998).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.9758700
+	speed: 0.2336s/iter; left time: 218.6488s
+Epoch: 2 cost time: 18.36080527305603
+Epoch: 2, Steps: 115 | Train Loss: 0.9933732 Vali Loss: 0.9403809 Test Loss: 0.9403425
+Validation loss decreased (0.947998 --> 0.940381).  Saving model ...
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.9660636
+	speed: 0.2336s/iter; left time: 191.8186s
+Epoch: 3 cost time: 18.468225240707397
+Epoch: 3, Steps: 115 | Train Loss: 0.9876441 Vali Loss: 0.9369888 Test Loss: 0.9369584
+Validation loss decreased (0.940381 --> 0.936989).  Saving model ...
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.9728597
+	speed: 0.2356s/iter; left time: 166.3315s
+Epoch: 4 cost time: 18.536662101745605
+Epoch: 4, Steps: 115 | Train Loss: 0.9850533 Vali Loss: 0.9352885 Test Loss: 0.9352621
+Validation loss decreased (0.936989 --> 0.935289).  Saving model ...
+Updating learning rate to 1.25e-05
+	iters: 100, epoch: 5 | loss: 0.9902878
+	speed: 0.2369s/iter; left time: 140.0018s
+Epoch: 5 cost time: 18.609130144119263
+Epoch: 5, Steps: 115 | Train Loss: 0.9839525 Vali Loss: 0.9344351 Test Loss: 0.9344026
+Validation loss decreased (0.935289 --> 0.934435).  Saving model ...
+Updating learning rate to 6.25e-06
+	iters: 100, epoch: 6 | loss: 1.0101646
+	speed: 0.2357s/iter; left time: 112.2025s
+Epoch: 6 cost time: 18.58816123008728
+Epoch: 6, Steps: 115 | Train Loss: 0.9839547 Vali Loss: 0.9339844 Test Loss: 0.9339529
+Validation loss decreased (0.934435 --> 0.933984).  Saving model ...
+Updating learning rate to 3.125e-06
+	iters: 100, epoch: 7 | loss: 0.9830160
+	speed: 0.2362s/iter; left time: 85.2639s
+Epoch: 7 cost time: 18.716212511062622
+Epoch: 7, Steps: 115 | Train Loss: 0.9823462 Vali Loss: 0.9337481 Test Loss: 0.9337237
+Validation loss decreased (0.933984 --> 0.933748).  Saving model ...
+Updating learning rate to 1.5625e-06
+	iters: 100, epoch: 8 | loss: 0.9529696
+	speed: 0.2376s/iter; left time: 58.4429s
+Epoch: 8 cost time: 18.698692321777344
+Epoch: 8, Steps: 115 | Train Loss: 0.9822345 Vali Loss: 0.9336455 Test Loss: 0.9336070
+Validation loss decreased (0.933748 --> 0.933646).  Saving model ...
+Updating learning rate to 7.8125e-07
+	iters: 100, epoch: 9 | loss: 0.9864574
+	speed: 0.2385s/iter; left time: 31.2404s
+Epoch: 9 cost time: 18.70734477043152
+Epoch: 9, Steps: 115 | Train Loss: 0.9820926 Vali Loss: 0.9335767 Test Loss: 0.9335465
+Validation loss decreased (0.933646 --> 0.933577).  Saving model ...
+Updating learning rate to 3.90625e-07
+	iters: 100, epoch: 10 | loss: 0.9812351
+	speed: 0.2370s/iter; left time: 3.7926s
+Epoch: 10 cost time: 18.732826471328735
+Epoch: 10, Steps: 115 | Train Loss: 0.9833545 Vali Loss: 0.9335349 Test Loss: 0.9335160
+Validation loss decreased (0.933577 --> 0.933535).  Saving model ...
+Updating learning rate to 1.953125e-07
+>>>>>>>testing : anomaly_detection_PulpDataset_GPT4TS_PulpDataset_ftM_sl100_ll48_pl0_dm768_nh8_el2_dl1_df8_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test: (3680, 59)
+train: (14718, 59)
+test 3581
+test: (3680, 59)
+train: (14718, 59)
+train 14619
+Threshold : 3.050788111686707
+pred:    (358100,)
+gt:      (358100,)
+pred:  (358100,)
+gt:    (358100,)
+Accuracy : 0.9744, Precision : 0.0143, Recall : 0.0433, F-score : 0.0215 
