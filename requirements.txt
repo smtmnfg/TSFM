@@ -1,0 +1,12 @@
+python==3.9.12
+pandas
+nixtla
+torch==2.1.2
+pytorch-lightning==2.0.7
+numpy
+sklearn
+transformers
+csv
+os
+tensorflow==2.16.2
+keras==3.4.1
