@@ -6,6 +6,13 @@ This repository contains derived datasets, analysis of methods experimented and 
 The datasets used in this study are available at:
 https://drive.google.com/drive/folders/1vYpNA1VgcAs6Aan0jO14DlkAu5BUfMRD?usp=sharing
 
+# 2. FPT #
+
+This folder includes the replicated codes of the FPT(Frozen Pretrained Transformer) model for the datasets used in this study. 
+
+# 3. TimeGPT #
+
+This folder includes the codes of the TimeGPT model for the datasets used in this study. 
 
 
 # Acknowledgement #
